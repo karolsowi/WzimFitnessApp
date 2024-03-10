@@ -1,10 +1,10 @@
-﻿using FitnessTracker.Models;
+﻿using WzimFitnessApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FitnessTracker.Data
+namespace WzimFitnessApp.Data
 {
     public interface IGoalStorageService
     {

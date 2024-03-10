@@ -3,15 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FitnessTracker.Data;
-using FitnessTracker.Models;
-using FitnessTracker.ViewModels;
+using WzimFitnessApp.Data;
+using WzimFitnessApp.Models;
+using WzimFitnessApp.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace FitnessTracker.Controllers
+namespace WzimFitnessApp.Controllers
 {
     [Authorize]
     public class BodyweightController : Controller

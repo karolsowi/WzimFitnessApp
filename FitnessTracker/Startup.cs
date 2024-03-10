@@ -8,13 +8,13 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using FitnessTracker.Data;
+using WzimFitnessApp.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using FitnessTracker.Models;
+using WzimFitnessApp.Models;
 
-namespace FitnessTracker
+namespace WzimFitnessApp
 {
     public class Startup
     {

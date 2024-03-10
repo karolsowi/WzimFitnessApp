@@ -7,7 +7,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using FitnessTracker.Models;
+using WzimFitnessApp.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 
-namespace FitnessTracker.Areas.Identity.Pages.Account
+namespace WzimFitnessApp.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class RegisterModel : PageModel

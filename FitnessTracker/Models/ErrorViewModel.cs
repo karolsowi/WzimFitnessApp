@@ -1,6 +1,6 @@
 using System;
 
-namespace FitnessTracker.Models
+namespace WzimFitnessApp.Models
 {
     public class ErrorViewModel
     {

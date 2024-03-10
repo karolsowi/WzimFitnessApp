@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace FitnessTracker.Areas.Identity.Pages.Account.Manage
+namespace WzimFitnessApp.Areas.Identity.Pages.Account.Manage
 {
     public class EnableAuthenticatorModel : PageModel
     {
@@ -148,7 +148,7 @@ namespace FitnessTracker.Areas.Identity.Pages.Account.Manage
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("FitnessTracker"),
+                _urlEncoder.Encode("WzimFitnessApp"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

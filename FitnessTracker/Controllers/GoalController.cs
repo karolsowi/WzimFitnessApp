@@ -1,6 +1,6 @@
-﻿using FitnessTracker.Data;
-using FitnessTracker.Models;
-using FitnessTracker.ViewModels;
+﻿using WzimFitnessApp.Data;
+using WzimFitnessApp.Models;
+using WzimFitnessApp.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace FitnessTracker.Controllers
+namespace WzimFitnessApp.Controllers
 {
     [Authorize]
     public class GoalController : Controller

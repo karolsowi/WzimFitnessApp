@@ -2,11 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using FitnessTracker.Models;
+using WzimFitnessApp.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace FitnessTracker.Data
+namespace WzimFitnessApp.Data
 {
     public class ApplicationDbContext : IdentityDbContext<FitnessUser>
     {

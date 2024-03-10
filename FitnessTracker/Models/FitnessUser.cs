@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FitnessTracker.Models
+namespace WzimFitnessApp.Models
 {
     public class FitnessUser : IdentityUser
     {

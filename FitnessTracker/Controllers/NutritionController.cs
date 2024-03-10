@@ -1,5 +1,5 @@
-﻿using FitnessTracker.Data;
-using FitnessTracker.Models;
+﻿using WzimFitnessApp.Data;
+using WzimFitnessApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FitnessTracker.Controllers
+namespace WzimFitnessApp.Controllers
 {
     public class NewFoodModel
     {

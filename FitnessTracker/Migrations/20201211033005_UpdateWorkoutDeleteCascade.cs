@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace FitnessTracker.Migrations
+namespace WzimFitnessApp.Migrations
 {
     public partial class UpdateWorkoutDeleteCascade : Migration
     {

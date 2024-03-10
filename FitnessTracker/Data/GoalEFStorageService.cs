@@ -1,11 +1,11 @@
-﻿using FitnessTracker.Models;
+﻿using WzimFitnessApp.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FitnessTracker.Data
+namespace WzimFitnessApp.Data
 {
     public class GoalEFStorageService : IGoalStorageService
     {

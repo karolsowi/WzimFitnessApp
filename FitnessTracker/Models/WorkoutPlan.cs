@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace FitnessTracker.Models
+namespace WzimFitnessApp.Models
 {
     public class WorkoutPlan
     {
